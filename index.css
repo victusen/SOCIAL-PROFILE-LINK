@@ -14,16 +14,22 @@ body {
 }
 
 .profile-container {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-between; 
-    gap: 20px; 
-    width: 350px; 
-    height: 80vh; 
-    background-color: hsl(0, 0%, 12%); 
-    border-radius: 10px; 
-    box-sizing: border-box; 
-    padding: 20px;
+  display: flex; 
+  flex-direction: column; 
+  /* justify-content: space-between;  */
+  gap: 20px; 
+  width: 350px; 
+  height: 80vh; 
+  background-color: hsl(0, 0%, 12%); 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  padding: 20px;
+} 
+.profession {
+
+}
+section.lower {
+  height: 100%;
 }
 section a {
   font-size: 0.9rem;
