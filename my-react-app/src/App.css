@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+#root {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  /* font-family: 'Inter', 'segoe ui', sans-serif; */
+  /* background-color: rgb(20, 20, 20); */
+}
+
+.custom-scrollbar {
+  overflow-y: auto; /* Functional */
+  scrollbar-width: none; /* Hides it for Firefox */
+  -ms-overflow-style: none; /* Hides it for IE/Edge */
+}
+
+/* This is the part that removes the physical "track" and "thumb" entirely */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* This makes the entire scrollbar UI disappear */
+}
