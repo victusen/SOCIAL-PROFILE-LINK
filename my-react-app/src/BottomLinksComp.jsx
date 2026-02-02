@@ -12,7 +12,7 @@ function BottomLinksComp() {
   ];
 
   return (
-    <div className="custom-scrollbar sm:h-60 text-center flex flex-col gap-3.5 w-full rounded-md box-border">
+    <div className="custom-scrollbar h-68 text-center flex flex-col gap-3.5 w-full rounded-md box-border">
       {accounts.map((link, index) => (
         <a 
           key={index} href={links[index]} 
